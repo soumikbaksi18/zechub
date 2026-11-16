@@ -349,7 +349,7 @@
 - Pools: Transparent | Sapling
 - Features: No KYC | Shielded Memo
 - NU7: Not Ready
-- Status: Beta
+- Stage: Beta
 
 ---
 
@@ -372,7 +372,7 @@
 - Pools: Transparent | Sapling
 - Features: AI Agent (MCP) | CipherPay | Command Line Interface | FROST Multisig | NEAR Intents | Payment Request | Shielded Memo | Testnet Support
 - NU7: Not Ready
-- Status: Beta 
+- Stage: Beta
 
 ---
 
@@ -417,7 +417,7 @@
 - Pools: Transparent | Orchard (Legacy) | Ironwood | Penumbra Shielded
 - Features: Multi-Chain | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
 - NU7: Not Ready
-- Status: Beta
+- Stage: Beta
 
 ---
 
@@ -429,7 +429,7 @@
 - Pools: Transparent | Sapling | Orchard | Ironwood (Pool Transfers)
 - Features: Self-Custodial | Shielded Transactions | QR Payments | Pool Transfers | Offline Signing | Encrypted Storage
 - NU7: Not Ready
-- Status: Beta 
+- Stage: Beta
 
 ---
 
@@ -441,7 +441,7 @@
 - Pools: Transparent | Sapling | Orchard | RAILGUN (0zkUSDC)
 - Features: Shielded Transactions | Shielded USDC | Atomic Swaps | Cross-Chain Bridge | Hardware Wallet Support | Private Voting
 - NU7: Not Ready
-- Status: Beta
+- Stage: Beta
 
 ---
 
@@ -453,7 +453,7 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Rotation | Open Source | Pool Transfer | Reproducible Build | Shielded Memo
 - NU7: Compatible
-- Status: Beta
+- Stage: Beta
 
 ---
 
@@ -465,6 +465,6 @@
 - Pools: Transparent | Orchard | Ironwood
 - Features: Address Check | NEAR Intents | Offline Signing | Open Source | Reproducible Build | Shielded Memo | Testnet Support
 - NU7: Not Verified
-- Status: Beta
+- Stage: Beta
 
 ---
