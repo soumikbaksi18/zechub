@@ -1,6 +1,12 @@
 
 # Wallets
 
+<!-- Add a wallet to the section it belongs in. Beta wallets use "- Stage: Beta"; a wallet whose only pool is Transparent goes under Transparent-only. zechub.wiki/wallets groups wallets the same way. -->
+
+# In production
+
+Released wallets for everyday use.
+
 ## [ZODL](https://zodl.com)
 ![logo](/content-images/wallets/zodl.webp "ZODL")
 - Devices: Mobile
@@ -9,17 +15,6 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting
 - NU7: Compatible
-
----
-
-## [YWallet](https://ywallet.app/)
-![logo](/content-images/wallets/ywallet.webp "YWallet")
-- Status: Deprecated | Dropped Zcash support after the NU6.3 Ironwood upgrade (2026). The author's successor wallet is Zkool.
-- Devices: Mobile | Desktop
-- Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling
-- Features: Address Book | Address Rotation | Cold Storage | Payment Request | Pool Transfer | Shielded Memo | TEX Address | WarpSync
 
 ---
 
@@ -67,17 +62,6 @@
 
 ---
 
-## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
-![logo](/content-images/wallets/ezcash.webp "eZcash")
-- Status: Deprecated
-- Devices: Mobile | Desktop
-- Operating System: Android | iOS | Windows
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling
-- Features: Address Book | Address Check | Address Rotation | Automatic Shielding | Payment Request | Shielded Memo | TEX Address | Testnet Support
-
----
-
 ## [Zkool](https://hhanh00.github.io/zkool2/)
 ![logo](/content-images/wallets/zkool.webp "Zkool")
 - Devices: Mobile | Desktop
@@ -122,40 +106,6 @@
 
 ---
 
-## [Zallet](https://github.com/zcash/zallet)
-![logo](/content-images/wallets/zallet.webp "Zallet")
-- Devices: Desktop
-- Operating System: Linux | macOS
-- Wallet Support: Seed Phrase | Unified Address | Full Node
-- Pools: Transparent | Sapling | Ironwood
-- Features: RPC Interface | Shielded Memo | Testnet Support
-- Stage: Beta
-- NU7: Compatible
-
----
-
-## [zcashd](https://github.com/zcash/zcash)
-![logo](/content-images/wallets/zcashd.webp "zcashd")
-- Status: Deprecated | End-of-life on 18 July 2026: it halts before NU6.3 and cannot follow the network. Use Zallet with a Zebra node.
-- Devices: Desktop
-- Operating System: Linux
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
-- Pools: Transparent | Sapling
-- Features: Address Rotation | Command Line Interface | RPC Interface | Shielded Memo | Testnet Support
-
----
-
-## [Brave](https://brave.com/wallet/)
-![logo](/content-images/wallets/brave.webp "Brave")
-- Devices: Web
-- Operating System: Browser
-- Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent
-- Features: Shielded Memo | Testnet Support
-- NU7: Not Ready
-
----
-
 ## [MetaMask Snap](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/)
 ![logo](/content-images/wallets/metamask-snap.webp "MetaMask")
 - Devices: Web
@@ -189,50 +139,6 @@
 
 ---
 
-## [SSP Wallet](https://sspwallet.io)
-![logo](/content-images/wallets/ssp-wallet.webp "SSP Wallet")
-- Devices: Mobile | Web
-- Operating System: Android | iOS | Browser
-- Wallet Support: Seed Phrase
-- Pools: Transparent
-- Features: Multi Coin | Multisig
-- NU7: Compatible
-
----
-
-## [Trust Wallet](https://trustwallet.com/)
-![logo](/content-images/wallets/trust-wallet.webp "Trust Wallet")
-- Devices: Mobile | Web
-- Operating System: Android | iOS | Browser
-- Wallet Support: Seed Phrase
-- Pools: Transparent
-- Features: Multi Coin
-- NU7: Not Ready
-
----
-
-## [Exodus](https://www.exodus.com/zcash-wallet-zec)
-![logo](/content-images/wallets/exodus.webp "Exodus")
-- Devices: Mobile | Desktop
-- Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Hardware
-- Pools: Transparent
-- Features: Multi Coin | Swaps
-- NU7: Not Ready
-
----
-
-## [Coinomi](https://www.coinomi.com/)
-![logo](/content-images/wallets/coinomi.webp "Coinomi")
-- Devices: Mobile
-- Operating System: Android | iOS
-- Wallet Support: Seed Phrase
-- Pools: Transparent
-- Features: Multi Coin
-- NU7: Not Ready
-
----
-
 ## [Keystone](https://keyst.one/zcash)
 ![logo](/content-images/wallets/keystone.webp "Keystone")
 - Devices: Hardware
@@ -251,38 +157,6 @@
 - Pools: Transparent | Ironwood
 - Features: Multi Coin
 - NU7: Compatible
-
----
-
-## [Safepal](https://safepal.com)
-![logo](/content-images/wallets/safepal.webp "Safepal")
-- Devices: Mobile | Web
-- Operating System: Android | iOS | Browser
-- Wallet Support: Seed Phrase | Hardware
-- Pools: Transparent
-- Features: Multi Coin
-- NU7: Not Ready
-
----
-
-## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
-![logo](/content-images/wallets/trezor.webp "Trezor")
-- Devices: Hardware
-- Wallet Support: Hardware
-- Pools: Transparent
-- Features: Multi Coin
-- NU7: Not Ready
-
----
-
-## [Vultisig](https://vultisig.com)
-![logo](/content-images/wallets/vultisig.webp "Vultisig")
-- Devices: Web | Mobile | Desktop
-- Operating System: Android | iOS | Windows | Linux | macOS | Browser
-- Wallet Support: MPC Vault
-- Pools: Transparent
-- Features: Multi Coin
-- NU7: Compatible 
 
 ---
 
@@ -341,18 +215,6 @@
 
 ---
 
-## [Zend:Zcash Wallet](https://justzend.com/)
-![logo](/content-images/wallets/zend-zcash-wallet.webp "Zend:Zcash Wallet")
-- Devices: Mobile
-- Operating System: iOS
-- Wallet Support: Passkey | Unified Address
-- Pools: Transparent | Sapling
-- Features: No KYC | Shielded Memo
-- NU7: Not Ready
-- Stage: Beta
-
----
-
 ## [Nozy Wallet](https://www.nozywallet.com/)
 ![logo](/content-images/wallets/nozy-wallet.webp "Nozy Wallet")
 - Devices: Desktop | Web
@@ -361,18 +223,6 @@
 - Pools: Ironwood
 - Features: Address Book | I2P Support | Shielded Memo | Tor Support | Transaction Export
 - NU7: Compatible
-
----
-
-## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
-![logo](/content-images/wallets/zipher.webp "Zipher")
-- Devices: Mobile | Desktop
-- Operating System: Android | iOS | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
-- Pools: Transparent | Sapling
-- Features: AI Agent (MCP) | CipherPay | Command Line Interface | FROST Multisig | NEAR Intents | Payment Request | Shielded Memo | Testnet Support
-- NU7: Not Ready
-- Stage: Beta
 
 ---
 
@@ -387,25 +237,43 @@
 
 ---
 
-## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
-![logo](/content-images/wallets/gem-wallet.webp "Gem Wallet")
-- Devices: Mobile
-- Operating System: Android | iOS
-- Wallet Support: Seed Phrase
-- Pools: Transparent
-- Features: Multi Coin
+# Beta wallets
+
+Still in testing. Expect bugs and start with small amounts.
+
+## [Zallet](https://github.com/zcash/zallet)
+![logo](/content-images/wallets/zallet.webp "Zallet")
+- Devices: Desktop
+- Operating System: Linux | macOS
+- Wallet Support: Seed Phrase | Unified Address | Full Node
+- Pools: Transparent | Sapling | Ironwood
+- Features: RPC Interface | Shielded Memo | Testnet Support
+- Stage: Beta
 - NU7: Compatible
 
 ---
 
-## [Freedom Wallet](https://www.freedomwallet.com/)
-![logo](/content-images/wallets/freedom-wallet.webp "Freedom Wallet")
+## [Zend:Zcash Wallet](https://justzend.com/)
+![logo](/content-images/wallets/zend-zcash-wallet.webp "Zend:Zcash Wallet")
 - Devices: Mobile
-- Operating System: Android | iOS
-- Wallet Support: Seed Phrase
-- Pools: Transparent
-- Features: Multi Coin | Swaps
+- Operating System: iOS
+- Wallet Support: Passkey | Unified Address
+- Pools: Transparent | Sapling
+- Features: No KYC | Shielded Memo
 - NU7: Not Ready
+- Stage: Beta
+
+---
+
+## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
+![logo](/content-images/wallets/zipher.webp "Zipher")
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling
+- Features: AI Agent (MCP) | CipherPay | Command Line Interface | FROST Multisig | NEAR Intents | Payment Request | Shielded Memo | Testnet Support
+- NU7: Not Ready
+- Stage: Beta
 
 ---
 
@@ -466,5 +334,155 @@
 - Features: Address Check | NEAR Intents | Offline Signing | Open Source | Reproducible Build | Shielded Memo | Testnet Support
 - NU7: Not Verified
 - Stage: Beta
+
+---
+
+# Transparent-only wallets
+
+These wallets cannot use shielded pools. Balances and transactions are public on the blockchain.
+
+## [Brave](https://brave.com/wallet/)
+![logo](/content-images/wallets/brave.webp "Brave")
+- Devices: Web
+- Operating System: Browser
+- Wallet Support: Seed Phrase | Unified Address
+- Pools: Transparent
+- Features: Shielded Memo | Testnet Support
+- NU7: Not Ready
+
+---
+
+## [SSP Wallet](https://sspwallet.io)
+![logo](/content-images/wallets/ssp-wallet.webp "SSP Wallet")
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin | Multisig
+- NU7: Compatible
+
+---
+
+## [Trust Wallet](https://trustwallet.com/)
+![logo](/content-images/wallets/trust-wallet.webp "Trust Wallet")
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
+- NU7: Not Ready
+
+---
+
+## [Exodus](https://www.exodus.com/zcash-wallet-zec)
+![logo](/content-images/wallets/exodus.webp "Exodus")
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Hardware
+- Pools: Transparent
+- Features: Multi Coin | Swaps
+- NU7: Not Ready
+
+---
+
+## [Coinomi](https://www.coinomi.com/)
+![logo](/content-images/wallets/coinomi.webp "Coinomi")
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
+- NU7: Not Ready
+
+---
+
+## [Safepal](https://safepal.com)
+![logo](/content-images/wallets/safepal.webp "Safepal")
+- Devices: Mobile | Web
+- Operating System: Android | iOS | Browser
+- Wallet Support: Seed Phrase | Hardware
+- Pools: Transparent
+- Features: Multi Coin
+- NU7: Not Ready
+
+---
+
+## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
+![logo](/content-images/wallets/trezor.webp "Trezor")
+- Devices: Hardware
+- Wallet Support: Hardware
+- Pools: Transparent
+- Features: Multi Coin
+- NU7: Not Ready
+
+---
+
+## [Vultisig](https://vultisig.com)
+![logo](/content-images/wallets/vultisig.webp "Vultisig")
+- Devices: Web | Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS | Browser
+- Wallet Support: MPC Vault
+- Pools: Transparent
+- Features: Multi Coin
+- NU7: Compatible 
+
+---
+
+## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
+![logo](/content-images/wallets/gem-wallet.webp "Gem Wallet")
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin
+- NU7: Compatible
+
+---
+
+## [Freedom Wallet](https://www.freedomwallet.com/)
+![logo](/content-images/wallets/freedom-wallet.webp "Freedom Wallet")
+- Devices: Mobile
+- Operating System: Android | iOS
+- Wallet Support: Seed Phrase
+- Pools: Transparent
+- Features: Multi Coin | Swaps
+- NU7: Not Ready
+
+---
+
+# Deprecated wallets
+
+Kept for reference only. Do not use these wallets for new funds.
+
+## [YWallet](https://ywallet.app/)
+![logo](/content-images/wallets/ywallet.webp "YWallet")
+- Status: Deprecated | Dropped Zcash support after the NU6.3 Ironwood upgrade (2026). The author's successor wallet is Zkool.
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling
+- Features: Address Book | Address Rotation | Cold Storage | Payment Request | Pool Transfer | Shielded Memo | TEX Address | WarpSync
+
+---
+
+## [eZcash](https://play.google.com/store/apps/details?id=com.Nerdbank.eZcash.App)
+![logo](/content-images/wallets/ezcash.webp "eZcash")
+- Status: Deprecated
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Pools: Transparent | Sapling
+- Features: Address Book | Address Check | Address Rotation | Automatic Shielding | Payment Request | Shielded Memo | TEX Address | Testnet Support
+
+---
+
+## [zcashd](https://github.com/zcash/zcash)
+![logo](/content-images/wallets/zcashd.webp "zcashd")
+- Status: Deprecated | End-of-life on 18 July 2026: it halts before NU6.3 and cannot follow the network. Use Zallet with a Zebra node.
+- Devices: Desktop
+- Operating System: Linux
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Pools: Transparent | Sapling
+- Features: Address Rotation | Command Line Interface | RPC Interface | Shielded Memo | Testnet Support
 
 ---
